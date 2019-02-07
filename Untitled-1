@@ -1,0 +1,9 @@
+solusinya ada generate random hash dari server, terus dicek kembali ketika submit. Nah yang saya pikir untuk menyimpan hash ini apa menggunakan database yang sama? tapi nanti kemungkinan banyak nilai stale juga semisal request form tapi tidak jadi di submit. 
+
+- Generate random hash dari server: bisa.
+
+
+- Cara lain pake rate limiting:
+
+- https://developers.google.com/analytics/devguides/reporting/core/v3/limits-quotas
+- https://developer.twitter.com/en/docs/basics/rate-limiting.html
